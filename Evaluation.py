@@ -1,3 +1,6 @@
+import time
+import datetime
+
 tablTheme = []
 tablQuest = []
 tablQcm = []
@@ -47,7 +50,7 @@ def eval():
                 # on demande la reponse a la question indiquee
                 rep= raw_input(tablQuest[i])
                 # la reponse est stockee dans le tableau reponse
-                tablRep.append(rep)
+                tablRep.append(rep + time.strftime(" - Time : %H h %M min %S sec"))
         # sinon si le tableau qcm n'est pas vide
         elif tablQcm[i] != "" :
             # on affiche le contenu de l'index qcm
@@ -57,7 +60,9 @@ def eval():
                 # on demande la reponse au qcm
                 rep= raw_input("Ecrivez la bonne reponse. ")
                 # la reponse est stockee dans le tableau reponse
-                tablRep.append(rep)
+                tablRep.append(rep + time.strftime(" - Time : %H h %M min %S sec"))
 
 fetch()
 eval()
+
+print tablRep
