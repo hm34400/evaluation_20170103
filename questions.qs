@@ -1,10 +1,10 @@
-﻿##ECOSYSTEME
+##ECOSYSTEME
 #L'informatique est la science:
 -des dispositifs dont le fonctionnement dépend de la circulation d'électrons.
 -des signaux électriques porteurs d'informations ou d'énergie.
 -du traitement automatique de l'information.
 -de la commande des appareils fonctionnant sans intervention humaine.
-#Le logiciel est: 
+#Le logiciel est:
 -la mémoire de l'ordinateur.
 -le traitement automatique de l'information.
 -l'ensemble des données manipulées par les instructions.
@@ -26,9 +26,9 @@
 #Qu'est ce qu'un framework?
 #Laquelle des fonctionnalités suivantes le serveur web n'est pas censé respecter :
 -travailler en mode connecté sur IP
--repondre à une requête HTTP
+-repondre à une requète HTTP
 -écouter le port 21
--répondre à une requête de type DELETE
+-répondre à une requète de type DELETE
 #Sur quel port écoute un serveur FTP ?
 #Nous travaillons sur 3 couches, laquelle n'est pas utilisée en developpement d'applications :
 -présentation
